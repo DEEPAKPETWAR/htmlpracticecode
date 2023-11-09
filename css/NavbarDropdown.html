@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropDown Bar</title>
+<style>
+    ul
+    {
+        list-style-type: none;
+        margin: 10px;
+        padding: 20px;
+        overflow: hidden;
+
+
+    }
+    li
+    {
+    
+        Display:Inline;
+        margin-inline: 1%;
+        font-family: cursive;
+        font-size: 50px;
+        color:brown;
+
+    }
+    li:hover
+    {
+        cursor:pointer;
+        background-color:burlywood;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    li a,.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li.dropdown
+{
+
+    display: inline-block;
+}
+table
+    { 
+    
+        width: 100%;
+        height:30px;
+        background-color: black;
+        border-color: orange;
+    }
+    .dropdown-content {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+    .dropdown:hover .dropdown-content {
+  display: block;
+}
+    
+</style>
+</head>
+<body>
+    <table border="5" cellspacing="1"cellpadding="1">
+        <thead>
+            <tr>
+                <ul>
+                    <td align="center"><li>Home</li></td>   
+                    <td align="center"><li>About</li></td>  
+                    <td align="center"><li>Product</li></td>  
+                    <td align="center"><li class="dropbtn">Service</li>
+                        <div class="dropdown-content">
+                    <a>Service1</a></td></div>
+                    <td align="center"><li>User</li></td>  
+                    <td align="center"><li>login</li></td>
+                    </div>
+            </tr>
+        </thead>
+    </table>
+    
+</body>
+</html>
