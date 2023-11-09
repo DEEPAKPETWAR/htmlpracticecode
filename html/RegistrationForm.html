@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<style>
+  p.dashed {border-style: dashed;}
+    p.dotted {border-style: dotted;}
+</style>
+<body>
+    <fieldset>
+        <h2 align="center">Application Form<hr></h2>
+        <p class="dotted"> <fieldset><legend>Information</legend><hr></p>
+        <p >
+            Applicant's Full Name:<br>
+            <input type="text" id="fullname" name="fullname"><br><br>
+            Father's Name:<br>
+            <input type="text" id="fathername" name="fathername"><br><br>
+            Gender:<br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+              <input type="radio"id="other"name="gender"value="others">
+                <label for="others">Others</label><br><br>
+            Marital Status:<br>
+            <input type="radio" id="single" name="maritalstatus" value="single">
+            <label for="single">Single</label>
+            <input type="radio" id="married" name="maritalstatus" value="married">
+            <label for="married">Married</label><br><br>
+            Handicapped:<br>
+            <input type="radio" id="handicapped-yes" name="handicapped" value="yes">
+            <label for="handicapped-yes">Yes</label>
+            <input type="radio" id="handicapped-no" name="handicapped" value="no">
+            <label for="handicapped-no">No</label><br><br>
+            EWS (Economically Weaker Section):<br>
+            <input type="radio" id="ews-yes" name="ews" value="yes">
+            <label for="ews-yes">Yes</label>
+            <input type="radio" id="ews-no" name="ews" value="no">
+            <label for="ews-no">No</label><br><br>
+        
+    
+            Care of:<br>
+            <input
+             type="radio" id="parents" name="careof" value="parents">
+            <label for="parents">Parents</label>
+            <input type="radio" id="guardian" name="careof" value="guardian">
+            <label for="guardian">Guardian</label><br><br>
+            Mother's Name:<br>
+            <input type="text" id="mothername" name="mothername"><br><br>
+            Date of Birth:<br>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            Category:<br>
+            <select id="category" name="category">
+                <option value="Select">Select</option>
+                <option value="General">General</option>
+                <option value="OBC">OBC</option>
+                <option value="SC/ST">SC/ST</option>
+            </select><br><br>
+            Ex-Serviceman:<br>
+            <input type="radio" id="ex-yes" name="ex-serviceman" value="yes">
+            <label for="ex-yes">Yes</label>
+            <input type="radio" id="ex-no" name="ex-serviceman" value="no">
+            <label for="ex-no">No</label><br><br>
+            Religion:<br>
+            <select id="religion" name="religion">
+                <option value="Select">Select</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Muslim">Muslim</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+        </fieldset>
+        </p>
+        
+        <p class="dashed">
+            <fieldset><legend><b>Contact Details</legend></b>
+        </p>
+        <p>
+            Moblie<br>Number&nbsp;&nbsp;
+            <input type="number"id="Number"name="Number"><br><br>
+            Address &nbsp;&nbsp;
+            <input type="text"id="addres"name="address"><br><br>
+            city&nbsp;&nbsp;&nbsp;
+            <input type="text"id="city"name="city"><br><br>
+            pin<br>code &nbsp;&nbsp;
+            <input type="number"id="pincode"name="pincode"><br><br>
+        </p>
+    </fieldset>
+    <p>
+        <fieldset><legend>Identification Details</legend>
+<p>
+    Adharcard<br>Number&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="number"id="number"name="number"><br>
+    PanCard<br>Number&nbsp;&nbsp;
+    <input type="number"id="number"name="number"><br><br>
+    UploadPhoto&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="my file"></label>
+    <input type="file"id="my file"name="my file"><br><br>
+    UploadSignature&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="file"id="my file"name="my file"><br><br>
+</p>
+    </fieldset>
+    </p>
+    <p>
+        <fieldset><legend>Qulification Details</legend>
+        <p>
+            
+        </p>
+        
+        
+        
+        </fieldset>
+    </p>
+    </form>
+</body>
+</html>
